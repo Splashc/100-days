@@ -6,5 +6,3 @@ print("Welcome to Band name Generator")
 City = input("Where do you live\n")
 petName = input("What is the name of your Pet\n")
 print(f"Your generated band name is {City} {petName}")
-print("Erik houd van geld")|
-print("Erik houd van geld2")
