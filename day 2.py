@@ -27,3 +27,17 @@ Weeks = round(Years * 52)
 Days = round(Years * 365)
 
 print(f"You have {Days} days, {Weeks} weeks, and {Months} months left.")
+
+#Final - Tip Calculator
+print("WELCOME TO MONEY calculator")
+bill = float(input("WHAT YOU PAY $"))
+tip = int(input("HOW much Do you tip in %? "))
+people = int(input("How much people you pay"))
+
+tip_as_percent = tip / 100
+total_tip_amount = bill * tip_as_percent
+total_bill = bill + total_tip_amount
+bill_per_person = total_bill / people
+final_amount = round(bill_per_person, 2)
+
+print(f"EVERYONE PAY: ${final_amount}")
