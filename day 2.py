@@ -30,9 +30,9 @@ print(f"You have {Days} days, {Weeks} weeks, and {Months} months left.")
 
 #Final - Tip Calculator
 print("WELCOME TO MONEY calculator")
-bill = float(input("WHAT YOU PAY $"))
+bill = float(input("WHAT YOU PAY $ "))
 tip = int(input("HOW much Do you tip in %? "))
-people = int(input("How much people you pay"))
+people = int(input("How much people pay the bill? "))
 
 tip_as_percent = tip / 100
 total_tip_amount = bill * tip_as_percent
