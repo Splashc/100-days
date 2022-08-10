@@ -92,8 +92,10 @@ if meintje  == "1":
 erik = input('JE komt erik tegen en hij heeft je wil je wat vertelen over luckycraft ranks wat ga je doen\n(1) Je gooit erik van en gebouw\n(2) Je luisterd naar erik\n(3) Je pleegd zelfmoord\n').lower()
 if erik == "1":
     print("HAHAHA erik gooit jou eerder L bozo game over")
+    exit()
 if erik  == "2":
     print("Erik zorgt ervoor daat jij hem 10000 euro geeft nu woon je onder en brug GAME OVER")
+    exit()
 if erik == "3":
     print("HMM erik houd je tegen en laat je gaan")
 luuk = input('Luuk houd van koekjes geef je hem dino koekjes\n(1) Ja\n(2) Nee\n').lower()
